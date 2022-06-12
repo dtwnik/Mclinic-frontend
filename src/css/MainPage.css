@@ -165,7 +165,7 @@ h1, h2, h3{
     left: 0;
     width: 100%;
     padding: 3 0;
-    z-index: 999;
+    z-index: 1;
 }
 .navbar .container{
     -webkit-box-pack: justify;
@@ -276,6 +276,7 @@ button[class ^= navbar]:hover{
 
 .header-inner{
     padding-top: 16rem;
+    margin-top: 50px;
 }
 .header-inner-left h1{
     font-size: 4rem;
@@ -378,7 +379,10 @@ button[class ^= navbar]:hover{
     background-color: var(--fros-blue-color);
     z-index: -2;
 }
-
+/* .zakaz{
+    width: 50px;
+    height: 45px;
+} */
 
 .banner-one{
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 80, 213, 0.9)), to(rgba(0, 90, 213, 0.85))), url('/src/assets/images/banner-1-img.png') top/cover no-repeat;

@@ -10,20 +10,20 @@ const Service = () => {
             </div>
             <div className="service-flex">
                 <ul>
-                    <li><Link to={'/Terapevt/'}>Терапевт</Link></li>
-                    <li><Link to={'/Oculist/'}> Офтальмолог</Link></li>
-                    <li><Link to={'/Neuropotolog/'}>Невропатолог</Link></li>
+                    <li><Link to={'/Terapevt/'}>-Терапевт-</Link></li>
+                    <li><Link to={'/Oculist/'}> -Офтальмолог-</Link></li>
+                    <li><Link to={'/Neuropotolog/'}>-Невропатолог-</Link></li>
                     
                 </ul>
                 <ul>
-                    <li><Link to={'/Cardiolog/'}>Кардиолог</Link></li>
-                    <li><Link to={'/Revmotolog/'}>Ревматолог</Link></li>
-                    <li><Link to={'/Endocrinolog/'}>Эндокринолог</Link></li>
+                    <li><Link to={'/Cardiolog/'}>-Кардиолог-</Link></li>
+                    <li><Link to={'/Revmotolog/'}>-Ревматолог-</Link></li>
+                    <li><Link to={'/Endocrinolog/'}>-Эндокринолог-</Link></li>
                     
                 </ul>
                 <ul>
-                    <li><Link to={'/LOR/'}>ЛОР</Link></li>
-                    <li><Link to={'/Stomotolog/'}>Стоматолог</Link></li>
+                    <li><Link to={'/LOR/'}>-ЛОР-</Link></li>
+                    <li><Link to={'/Stomotolog/'}>-Стоматолог-</Link></li>
                 </ul>
             </div>
         </div>

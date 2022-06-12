@@ -42,6 +42,7 @@
 }
 .desc{
     text-align: center;
+    margin-bottom: 40px;
 }
 .form-control{
     border: 2px solid #ececec;
@@ -84,4 +85,52 @@
     color: #fff;
     text-transform: uppercase;
     background-color: #5cb85c;
+}
+.modal2{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgba(60, 60, 60, 0.8);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    color: black;
+}
+.modal2.active2{
+    transform: scale(1);
+    z-index: 100;
+}
+.modal_content2{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    min-height: 650px;
+    width: 1000px;
+    color:black;
+    position: relative;
+}
+.close2{
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    top:10px;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://medicalpark.kz/themes/medical/public/images/close-modal.png);
+}
+.title2{
+    color: #0050d5;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+.checkbox2{
+    margin-left: 192px;
+    margin-top:30px;
+}
+.checkbox3{
+    margin-left: 192px;
+    margin-bottom: 100px;
 }

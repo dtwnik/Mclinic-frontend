@@ -37,7 +37,7 @@ const Modal = ({ active, setActive, post}) => {
                 
                 <h1 className='title'>ЗАПИСЬ НА ПРИЕМ</h1>
                 <div className='desc'>
-                Для записи на прием<br/>
+                Заполнять форму нужно только после записи на консультацию через оператора.<br/>
                 необходимо заполнить следующую<br/>
                 информацию или позвонить по телефону<br/>
                 +7(727) 303 3333
@@ -70,7 +70,7 @@ const Modal = ({ active, setActive, post}) => {
                     <button className='button2'>Отправить</button>
 
                 </form>
-                </div>
+            </div>
         </div>
         </>
     );

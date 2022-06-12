@@ -6,6 +6,7 @@ import Modal from '../component/Modal'
 const Cardiolog = () => {
     const [modalActive, setModalActive] = useState(false)
     const [Doctor, setDoctor] = useState([]);
+    const data = ''
     
     useEffect(() => {
         const apiUrl = 'https://mclinic-drf.herokuapp.com/api/Doctor/';
@@ -14,6 +15,7 @@ const Cardiolog = () => {
                 post: "Кардиолог"
             }
         }).then((resp) => {
+            const data = Doctor[0]
             const allDoctor = resp.data;
             setDoctor(allDoctor);
         });
@@ -36,7 +38,7 @@ const Cardiolog = () => {
         else
             alert("Авторизуйтесь")
     }
-    const data = "Кардиолог"
+    
     console.log(data)
     return (
         <>
